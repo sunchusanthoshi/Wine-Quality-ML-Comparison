@@ -10,8 +10,6 @@ This project aims to **predict the quality of wine** based on its physicochemica
 
 We evaluate and compare each model’s performance using a consistent pipeline including data preprocessing, class balancing (SMOTE), scaling, and performance metrics (accuracy, F1-score, confusion matrix, etc.).
 
----
-
 ## 🧪 Dataset Description
 
 - **Source:** [Wine Quality Dataset on Kaggle](https://www.kaggle.com/datasets/rajyellow46/wine-quality)
@@ -20,7 +18,6 @@ We evaluate and compare each model’s performance using a consistent pipeline i
   Fixed Acidity, Volatile Acidity, Citric Acid, Residual Sugar, Chlorides, Free/Total Sulfur Dioxide, Density, pH, Sulphates, Alcohol  
 - **Target:** `quality` (integer from 0 to 10)
 
----
 
 ## ⚙️ Preprocessing Steps
 
@@ -29,8 +26,6 @@ We evaluate and compare each model’s performance using a consistent pipeline i
 - Balanced the dataset with `SMOTE`  
 - Split into 80% training and 20% testing sets  
 - Applied zero-indexing for categorical labels as needed
-
----
 
 ## 🤖 Models and Results
 
@@ -50,8 +45,6 @@ We evaluate and compare each model’s performance using a consistent pipeline i
 - Clear learning curve with improving loss and accuracy
 - Most effective in capturing complex feature interactions
 
----
-
 ## 📊 Visualizations
 
 - **Histograms** of all input features  
@@ -59,7 +52,6 @@ We evaluate and compare each model’s performance using a consistent pipeline i
 - **Confusion matrices** for all models  
 - **Training/Validation accuracy & loss curves** for neural network
 
----
 
 ## 🧠 Conclusion
 
@@ -67,16 +59,6 @@ We evaluate and compare each model’s performance using a consistent pipeline i
 - Traditional models like Logistic Regression and SVM still provide interpretability and insight  
 - **Feature importance** highlights the impact of alcohol, sulphates, and acidity on wine quality
 
----
-
-## 🚀 Future Enhancements
-
-- Tune neural network architecture (layers, activations, dropout)  
-- Explore ensemble models (e.g., Random Forest, XGBoost)  
-- Introduce cross-validation and hyperparameter optimization  
-- Use advanced feature selection techniques
-
----
 
 ## 🛠️ Tools and Libraries
 
@@ -85,5 +67,3 @@ We evaluate and compare each model’s performance using a consistent pipeline i
 - TensorFlow / Keras  
 - Matplotlib, Seaborn  
 - imbalanced-learn (SMOTE, RandomOverSampler)
-
----
